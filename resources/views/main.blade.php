@@ -27,6 +27,7 @@
                 }
             @endphp
             </p>
+            <input type="text" name="" id=""  :value="inputWord" @keypress="keyPress">
         </div>
         <div id="keyboard">
             <div class="column1">
@@ -50,6 +51,6 @@
 
     
     <script src="https://unpkg.com/vue@3"></script>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
